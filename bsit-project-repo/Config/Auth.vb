@@ -5,6 +5,8 @@ Public Class Auth
         Try
             If username = "admin" AndAlso password = "admin" Then
                 ' ==== SET DATA TO SESSION ====
+
+
                 Session.UserID = 1
                 Session.Username = "emil2"
                 Session.Fullname = "Emil Ago"
